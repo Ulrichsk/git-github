@@ -1,0 +1,133 @@
+body{
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+  overflow-x: hidden;
+}
+nav{
+  width: 100%;
+  height: 80px;
+  background-color:white;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.robbie img{
+  margin-right: 1300px;
+}
+.menu ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+   gap: 40px;
+   margin-right: 10px;
+}
+.box1{
+  width: 100%;
+  height: 500px;
+  background-color: #1e1f38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.text h1{
+  font-size: 70px;
+  color: #a4b3fc;
+}
+.text span{
+  color:#a4b3fc ; 
+}
+.text{
+  color: white;
+}
+.text button{
+  width: 230px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #a2a0d9;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+.text button:hover{
+   opacity: 0.8;
+   cursor: pointer;
+}
+.box2 h1{
+  margin-left: 850px;
+  margin-top: 120px;
+}
+.image2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.image3{
+ display: flex;
+ justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 100px;
+}
+.box3 h2{
+  color: #a2a0d9;
+  margin-top: 130px;
+}
+.box3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e1f38;
+}
+.email{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+.email input{
+  width: 580px;
+  height: 30px;
+}
+.messa{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.messa input{
+  width: 1200px;
+  height: 150px;
+}
+.messa button{
+  width: 120px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #a2a0d9;
+  border: none;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto;
+}
+.messa button:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+footer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 18px;
+}
+ 
